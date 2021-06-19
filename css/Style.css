@@ -1,0 +1,251 @@
+.HIW_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.3fr 1.3fr 1.4fr 1.4fr 0.6fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "Logo nav_bar nav_bar nav_bar Sign_in" "focus focus focus buttons buttons" "focus focus focus buttons buttons" ". how_it_works how_it_works how_it_works ." "double_card double_card double_card double_card double_card" "double_card double_card double_card double_card double_card" ". random_text random_text random_text ." "double_card2 double_card2 double_card2 double_card2 double_card2" "double_card2 double_card2 double_card2 double_card2 double_card2" ". . try . ." ". . two_butt . ." ". . footer_link . .";
+    width: 100%;
+    height: 101%;
+}
+
+.nav_bar {
+    grid-area: nav_bar;
+    align-self: center;
+}
+
+#nav_top {
+    color: black;
+}
+
+.Sign_in {
+    grid-area: Sign_in;
+    justify-self: space-between;
+    justify-self: center;
+    align-self: center;
+}
+
+#signup {
+    border-width: 1%;
+    border-radius: 10px;
+    border-color: #0850F8;
+}
+
+#try {
+    border-radius: 10px;
+    margin-left: 20px;
+    background-color: #0850F8;
+}
+
+.Logo {
+    grid-area: Logo;
+    justify-self: center;
+    align-self: center;
+}
+
+.focus {
+    grid-area: focus;
+}
+
+#Focus {
+    font-size: 450%;
+    margin-top: 10%;
+    margin-left: 11%;
+    font-weight: bolder;
+}
+
+#let {
+    font-size: 255%;
+    margin-left: 11%;
+}
+
+#subs {
+    margin-left: 11%;
+    margin-top: 2%;
+    font-size: 150%;
+    color: rgb(151, 151, 151);
+}
+
+#free {
+    border-radius: 13px;
+    background-color: #0850F8;
+    color: white;
+    font-style: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 230px;
+    height: 60px;
+    margin-left: 11%;
+    margin-top: 3%;
+}
+
+#chat {
+    border-radius: 13px;
+    color: #0850F8;
+    border-color: #0850F8;
+    font-style: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 230px;
+    height: 60px;
+    margin-left: 1%;
+    margin-top: 3%;
+}
+
+#already {
+    font-size: 150%;
+    margin-left: 11%;
+    margin-top: 3%;
+    color: gray;
+    font-weight: bold;
+}
+
+#focus_bottom {
+    padding-left: 3%;
+}
+
+#focus_bottom1 {
+    padding-left: 11%;
+}
+
+#focus_bottom2 {
+    padding-left: 3%;
+    color: #0850F8
+}
+
+.buttons {
+    grid-area: buttons;
+}
+
+.how_it_works {
+    justify-self: center;
+    align-self: center;
+    grid-area: how_it_works;
+    text-align: center;
+    margin-top: %;
+    font-weight: bold;
+}
+
+.how_it_works {
+    border-top: black;
+    border-top: solid !important
+}
+
+#How_it_lorem {
+    font-size: 150%;
+    justify-self: center;
+    align-self: center;
+    margin-right: 220px;
+    margin-left: 220px;
+}
+
+.double_card {
+    grid-area: double_card;
+}
+
+#DC0 {
+    float: center;
+    justify-self: center;
+    align-self: center;
+    margin-top: 60px;
+    margin-left: 40px;
+    height: 300px;
+}
+
+#DC1 {
+    border-radius: 20px 0px 0px 20px;
+    border-style: solid;
+    border-width: 2px;
+    -ms-flex-align: center;
+    width: 40%;
+    height: 400px;
+}
+
+#DC2 {
+    border-radius: 0px 20px 20px 0px;
+    border-style: solid;
+    border-width: 2px;
+    background-color: #0850F8;
+    color: white;
+    -ms-flex-align: center;
+    text-align: center;
+    width: 650px;
+}
+
+#DC_2 {
+    margin-top: 80px;
+    margin-right: 100px
+}
+
+#DC_2_1 {
+    text-align: start;
+    margin: 80px;
+    font-size: 100%;
+}
+
+.random_text {
+    justify-self: center;
+    align-self: center;
+    grid-area: how_it_works;
+    text-align: center;
+    margin-top: 11%;
+    grid-area: random_text;
+    font-weight: bold;
+}
+
+#lorem {
+    font-size: 150%;
+    justify-self: center;
+    align-self: center;
+    font-size: 120%;
+    margin-bottom: 50px;
+    font-weight: bold;
+    margin-right: 220px;
+    margin-left: 220px;
+}
+
+.double_card2 {
+    grid-area: double_card2;
+}
+
+#DC3 {
+    border-style: none;
+    float: right;
+}
+
+#DC4 {
+    border-radius: 0px 20px 20px 0px;
+    border-style: solid;
+    border-width: 2px;
+    background-color: #0850F8;
+    color: white;
+    -ms-flex-align: center;
+    text-align: center;
+    align-content: center;
+    height: 400px;
+}
+
+#DC_4_1 {
+    margin-top: 100px;
+    margin: 80px;
+    font-size: 100%;
+}
+
+#DC_4_2 {
+    margin-top: 5px;
+    text-align: start;
+    margin: 80px;
+    font-size: 100%;
+}
+
+.try {
+    grid-area: try;
+}
+
+.two_butt {
+    grid-area: two_butt;
+}
+
+.footer_link {
+    grid-area: footer_link;
+}
