@@ -122,7 +122,7 @@
     align-self: center;
     grid-area: how_it_works;
     text-align: center;
-    margin-top: %;
+    margin-top: auto;
     font-weight: bold;
 }
 
