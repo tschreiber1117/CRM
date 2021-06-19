@@ -1,0 +1,180 @@
+/* BUTTON WITH BOOTSTRAP AND GRID*/
+#btn-group {
+    width: 35rem;
+    height: 35rem;
+    display: grid;
+    grid-template-columns: 32% 2% 32% 2% 32% ;
+    grid-template-rows: 32% 2% 32% 2% 32%;
+    grid-template-areas: 
+    "button1 . button2 . button3"
+    ". . . . ."
+    "button4 . button5 . button6"
+    ". . . . ."
+    "button7 . button . button9";
+    padding: 0%;
+    margin: 0%;
+    
+}
+.button {
+    color: white;
+   
+    
+    
+   
+   
+}
+
+#b1 {grid-area: button1;
+    background-color: #0850F8;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    
+    
+}
+
+
+#b2 {grid-area: button2;
+    background-color: #0850F8;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+#b3 {grid-area: button3;
+    background-color: #0850F8;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    
+}
+
+#b4 {grid-area: button4;
+    background-color: #0850F8;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    
+}
+
+#b5 {grid-area: button5;
+    background-color: #0850F8;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    
+}
+
+#b6 {grid-area: button6;
+    background-color: #0850F8;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    
+}
+
+#b7 { grid-area: button7;
+    background-color: #0850F8;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    
+}
+
+#b8 {
+    grid-area: button8;
+    background-color: #0850F8;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    
+}
+
+#b9 {grid-area: button9;
+    background-color: #0850F8;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    
+}
+
+
+/*
+#btn-signup {
+    background-color: #0850F8; 
+    color: white;
+    border: 2px solid white;
+    border-radius: 1rem;
+    height: 18%;
+    width: 19%;
+  }
+  
+  #btn-signup:hover {
+    background-color: white;
+    color: #0850F8;
+    border: 2px solid #0850F8;;
+  }
+  
+  #btn-chat {
+    background-color: white; 
+    color: #0850F8;
+    border: 2px solid #0850F8;
+    border-radius: 1rem;
+    height: 18%;
+    width: 19%;
+  }
+  
+#btn-chat:hover {
+    background-color: #0850f8;
+    color: white;
+  }
+  .doubletap {
+      margin-top: 1%;
+  }
+  .trial {
+      font-size: 10px;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  div {
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+  .outer-grid {
+    position: relative;
+    float: left;
+    width: 33.3%;
+    padding-bottom: 33.3%;
+    border: 1px solid gray;
+    background-color: #9cc;
+  }
+  .outer-square {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 90%;
+    height: 90%;
+    background-color: #ccc;
+    margin: 5%;
+    display: -webkit-flex;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .inner-grid {
+    width: 33.3%;
+    height: 33.3%;
+    border: 1px solid red;
+    display: table;
+  }
+  .inner-square {
+    line-height: 100%;
+    font-size: 50px;
+    font-weight: bold;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+  }
+  */
