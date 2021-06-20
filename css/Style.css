@@ -1,3 +1,7 @@
+h3 {  /*As much of our styling should be done on base tags as possible, makes collaboration easier in the long run. H3 tags for the "mini headers" on each page section.*/
+    font-weight: bolder;
+}
+
 .HIW_container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -137,7 +141,7 @@
     align-self: center;
     grid-area: how_it_works;
     text-align: center;
-    margin-top: %;
+    margin-top: %;  /*Should there be a value here? -Colby*/
     font-weight: bold;
 }
 
@@ -156,6 +160,66 @@
 
 .double_card {
     grid-area: double_card;
+}
+
+.generic_card_container { /*Since there's a bunch of these they should be made reusable rather than making a new CSS class for each*/
+
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+
+}
+
+#colbys_generic_caption_card { /*These cards shoudld be set up so that their content fits them, not the other way around*/
+        border-radius: 0px 20px 20px 0px;
+        border-style: solid;
+        border-width: 2px;
+        background-color: #0850F8;
+        color: white;
+        -ms-flex-align: center;
+        text-align: center;
+        width: 650px; 
+        padding-top: 80px;
+        padding-right: 80px;
+        padding-left: 40px;
+        padding-bottom: 80px;
+        text-align:start;
+}
+#colbys_generic_caption_card .card-text{
+    font-weight: bold;
+}
+
+
+
+#colbys_generic_caption_card ul{
+    padding:0;
+    list-style-position: inside;
+    list-style-type:none;
+    font-weight: normal;
+    line-height: 2em;
+}
+
+#colbys_generic_caption_card button{
+    border-width: 3px;
+    border-style: solid;
+    border-color: #ffffff;
+    color:#ffffff;
+    padding-left: 5em;
+    font-size: larger;
+    margin-top: 2rem;
+    text-align:center; /*I would try putting something here to center the text vertically, but who knows how*/
+}
+
+#colbys_generic_caption_card button i{
+    margin-left:2em;
+}
+
+#colbys_generic_picture_card {
+        border-radius: 20px 0px 0px 20px;
+        border-style: solid;
+        border-width: 2px;
+        -ms-flex-align: center;
+        width:25%;
+        height: 560px;
 }
 
 #DC0 {
@@ -259,6 +323,39 @@
 
 .two_butt {
     grid-area: two_butt;
+}
+
+#divider {
+    height:1px;
+    background-color: black;
+    margin-top:10rem;
+}
+
+#explore_buttons{
+    width:80%;
+    margin:auto;
+}
+
+#explore_buttons button{
+    width:115px;
+    height:115px;
+    margin-top: 10px;
+    border-color: black;
+    background-color: #fefefe;
+    border-radius: 10px;
+}
+
+
+#explore_buttons img{
+height: 30%;
+}
+#explore_buttons #payments{
+    height:50%;
+}
+
+#explore_buttons button:hover{ 
+    background-color: #0850F8;
+    color:#fefefe;
 }
 
 .footer_link {
