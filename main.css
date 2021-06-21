@@ -62,6 +62,7 @@
 }
 
 .Sign-In-Bold { grid-area: Sign-In-Bold;
+  padding: 25px;
    }
 
 h1{text-align:center;
@@ -76,11 +77,10 @@ h1{text-align:center;
 }
 
 .boxes {
-  width: 500px;
+  width: 350px;
   border-radius: 25px;
   border: 2px solid lightgray;
-  padding: 20px; 
-  width: 500px;
+  padding: 20px;
   height: 10px; 
 }
 
@@ -96,7 +96,7 @@ h1{text-align:center;
 
 .input-field {
   width: 100%;
-  padding: 10px;
+  padding: 100px;
   text-align: center;
 }
 
@@ -124,14 +124,38 @@ h1{text-align:center;
 }
 
 .circle-icon {
-  border-radius: 500px;
+  border-radius: 400px;
   border: 2px solid lightgray;
   padding: 20px;
   width: 200px;
   height: 150px;
+  background-size:100%;
+  background-position: center;
+  transition: 1s;
+  background: url(images/comment-author.gif) no-repeat scroll 7px 7px;
 }
 
 .icon {
   height: 30px;
   width: 30px;
 }
+
+.icon:hover {
+  font-size: 300px;
+  background-position: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.circle-icon:hover {
+  font-size: 30px;
+  background-position: center;
+  align-items: center;
+}
+
+.username {
+  background: url(C:\Users\todds\Portfolio\assets\Icons\username.png)
+  #fff
+  8px 8px;
+}
+
