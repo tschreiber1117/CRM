@@ -423,16 +423,15 @@ h3 {  /*As much of our styling should be done on base tags as possible, makes co
     border-width: 3px;
     border-style: solid;
     border-color: #ffffff;
+    box-sizing: content-box;
     color:#ffffff;
-    padding-left: 5em;
+    padding-left: 2em;
+    padding-right: 1em;
     font-size: larger;
     margin-top: 2rem;
-    text-align:center; /*I would try putting something here to center the text vertically, but who knows how*/
+     /*I would try putting something here to center the text vertically, but who knows how*/
 }
 
-#colbys_generic_caption_card button i{
-    margin-left:2em;
-}
 
 #colbys_generic_picture_card {
         border-radius: 20px 0px 0px 20px;
@@ -441,6 +440,13 @@ h3 {  /*As much of our styling should be done on base tags as possible, makes co
         -ms-flex-align: center;
         width:25%;
         height: 560px;
+}
+
+#colbys_generic_picture_card img {
+    width:100%;
+    margin:0;
+    position:relative;
+    top: 150px;
 }
 
 #DC0 {
