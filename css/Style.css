@@ -223,9 +223,6 @@ h3 {  /*As much of our styling should be done on base tags as possible, makes co
      /*I would try putting something here to center the text vertically, but who knows how*/
 }
 
-#colbys_generic_caption_card button i{
-  
-}
 
 #colbys_generic_picture_card {
         border-radius: 20px 0px 0px 20px;
