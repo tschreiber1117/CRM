@@ -364,6 +364,7 @@ height: 30%;
 .footer_link {
     grid-area: footer_link;
 }
+/*Emily Section*/
 
 .footer{
     text-align: center;
@@ -375,4 +376,51 @@ height: 30%;
 .h4{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.chat{
+    background-color: white;
+    border: 5px solid white;
+    width: 150px;
+    border-radius: 5px;
+}
+.get-started{
+    background-color: rgb(39, 192, 18);
+    border: 5px solid rgb(39, 192, 18);
+    width: 150px;
+    border-radius: 5px;
+}
+.analytics{ 
+        height: 75px;
+        width: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
+.Calendar{
+    height: 75px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.email{
+    height: 75px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.task{
+    height: 75px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.learn-button{
+  margin: 0;
+  position: center;
+    transition-duration: 0.4s;
+    cursor: pointer;
 }
